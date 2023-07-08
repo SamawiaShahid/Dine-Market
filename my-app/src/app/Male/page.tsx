@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Male =()=>{
     return(
-        <div className="px-28 flex py-10 gap-20">
+        <div className="lg:px-28 px-8 grid lg:grid-cols-2 sm:grid-cols-1 py-10 gap-20">
               <div className="Product4 font-[600] text-[#212121]    ">
                     <a href="/">
-                        <Image src="/male.jpg " alt=" " height={100} width={250} className="color-[rgb(215 215 217 ]" ></Image>
+                        <Image src="/male.jpg" alt=" " height={100} width={250} className="color-[rgb(215 215 217 ]" ></Image>
                     </a>
                     <p className="mt-5 font-bold tracking-wider  text-xl">Flex Push Button Bomber</p>
                     <p className="text-[#888]">Jackets</p>
@@ -14,7 +14,7 @@ const Male =()=>{
 
                 <div className="Product4 font-[600] text-[#212121]   ">
                     <a href="/">
-                        <Image src="/event4.jpg " alt=" " height={100} width={250} ></Image>
+                        <Image src="/event4.jpg" alt=" " height={100} width={250} ></Image>
                     </a>
                     <p className="mt-5 font-bold text tracking-wider  text-xl">Raglan Sweatshirt</p>
                     <p className="text-[#888]">Sweater</p>

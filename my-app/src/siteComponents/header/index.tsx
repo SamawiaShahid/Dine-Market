@@ -17,12 +17,13 @@ export function InputDemo() {
   return
 }
 const Header = () => {
-  const [isNavOpen, setNav] = useState(false)
+  
+  
   return (
     <nav className=" sticky top-0 bg-white w-full z-[999] h-[60px]">
       <div className="md:mb-8 md:mt-3  mb-4 mt-4 md:mx-24 mx-10 pt-3 ">
         <div className="flex items-center justify-between ">
-          <Link href="/"><Image src="/Logo.jpg" alt="" className='  ' height={19} width={150} /></Link>
+          <Link href="/"><Image src="/Logo.jpg" alt=""  height={19} width={150} /></Link>
           <div className="list xl:gap-12 lg:gap-5 lg:flex hidden">
             <Link href="/Female"  >Female</Link>
             <Link href="/Male" >Male</Link>
@@ -40,9 +41,6 @@ const Header = () => {
           transition ease-in-out delay-200 hover:translate-y-1 hover:scale-110 lg:visible ">
             <CgShoppingCart />
 
-
-
-
             <div className="visible ">
               <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar"
                 aria-controls="default-sidebar" type="button" className="inline-flex items-center -mt-2 -ml-1 text-sm text-gray-500 rounded-lg lg:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" >
@@ -52,8 +50,6 @@ const Header = () => {
                  4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
                 </svg>
               </button>
-
-
 
               <aside id="default-sidebar" className="hidden fixed top-0 left-0 z-40 w-64 h-screen transition-transform sm:translate-x-0:hidden" aria-label="Sidebar">
                 <div className="h-full p-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">

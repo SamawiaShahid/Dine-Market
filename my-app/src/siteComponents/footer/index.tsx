@@ -6,12 +6,12 @@ import Link from "next/link";
 
 const Footer =() =>{
     return( 
-        // 
+        
         <div className='md:my-12 mb-10 pt-8 mt-16 md:mx-24 mx-10'>
         <div className="grid grid-cols-12">
             <div className="lg:col-span-3 mb-3 lg:mb-0 md:col-span-6 col-span-12">
                 <div className="">
-                    <Image src="/logo.jpg" height={35} width={150} alt='logo' />
+                    <Image src="/Logo.jpg" height={35} width={150} alt='logo' />
                     <p className='py-4 text-[#666] text-base'>Small, artisan label that offers a thoughtfully curated collection of high quality everyday essentials made.</p>
                     <div className="flex gap-4">
                         <Link href="#" className="bg-[#f1f1f1] text-xl py-2 px-3 rounded-md">
@@ -50,7 +50,7 @@ const Footer =() =>{
                     <p className='text-[#666] text-base'>Copyright © 2022 Dine Market</p>
                 </div>
                 <div className="lg:col-span-4 md:col-span-6 col-span-12 mt-3 mb-3 lg:m-auto">
-                    <p className='text-[#666] text-base'>Design by: <span className='text-[#212121] font-bold'>Samavia Shahid</span></p>
+                    <p className='text-[#666] text-base'>Design by: <span className='text-[#212121] font-bold'>Samawia Shahid</span></p>
                 </div>
                 <div className="lg:col-span-4 md:col-span-6 col-span-12 mb-3 mt-3 lg:ml-auto">
                     <p className='text-[#666] text-base'>Code by: <span className='text-[#212121] font-bold'><Link href="#">SamawiaShahid on github</Link> </span></p>

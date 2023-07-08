@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const Features =()=>{
     return(
-        <div className="">
+        <div className=" ">
             <div className="title flex justify-end bg-[linear-gradient(180deg,#fff 50%,#fbfcff 0)] mt-10 ">
                 <h1 className="font-[700] lg:leading-[55px] leading-[40px] text-[#212121] lg:w-[45%]  lg:text-6xl text-4xl lg:px-0 px-6">Unique and Authentic Vintage Designer Jewellery</h1>
                 </div>
-                <div className="lg:grid grid-cols-12 gap-5">
-                <div className="lg:col-span-4 relative md:col-span-12 col-span-12">
+                <div className="lg:grid grid-cols-8 gap-5">
+                <div className="lg:col-span-12 relative md:col-span-12 col-span-12">
                     <div className="font-bold text-[#212121] text-6xl lg:text-8xl absolute opacity-[.07] z-[2] px-10 py-20 leading-[90px]">Different from others</div>
                     <div className="grid grid-cols-12 ">
                  
@@ -41,10 +41,10 @@ const Features =()=>{
                     </div>
                 </div>
              
-                <div className="lg:col-span-3 md:col-span-6 col-span-12 py-10  lg:px-0 px-3">
+                <div className="lg:col-span-3 md:col-span-6 col-span-12 py-10  lg:px-10 px-3">
                     <Image src="/feature.jpg" width={300} height={350} alt='feature' />
                 </div>
-                <div className="lg:col-span-1 md:col-span-6 col-span-12 lg:px-0  px-10 lg:tracking-tight   lg:py-10 py-0 lg:-ml-7 ml-0 " >
+                <div className="lg:col-span-4 md:col-span- col-span-12 lg:px-0  px-10 lg:tracking-tight   lg:py-28 py-0 lg:-ml-7 ml-0 " >
                     <p className='text-justify text-base text-[#212121]'>This piece is ethically crafted in our small family-owned workshop in Peru with unmatched
                         attention to detail and care. The Natural color is the actual natural color of the fiber,
                         undyed and 100% traceable.</p>
