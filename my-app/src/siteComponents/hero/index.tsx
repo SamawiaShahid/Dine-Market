@@ -17,7 +17,7 @@ const hero = () => {
         <div className="h1 text-5xl py-10 font-bold text-[#212121] lg:leading-[48px] leading-[40px] lg:w-[45%] w-[50%] ">
             <h1 className="xl:tracking-wider xl:leading-12  ">An Industrial Take on Streetwear</h1>
         </div>
-        <div className="paragraph text-[#666] lg:col-span-1 col-span-6">
+        <div className="paragraph text-[#666] lg:col-span-1 col-span-6 w-[90%]">
             <p className="font-normal leading-6">Anyone can beat you but no one can beat your outfit 
             as long as you wear Dine outfits.</p>
         </div>
