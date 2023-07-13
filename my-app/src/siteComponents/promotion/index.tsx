@@ -6,13 +6,13 @@ import { Import } from "lucide-react";
 
 const Products = () => {
   return (
-    <div className="md:my-5 ">
-      <div className="title text-center mb-14 lg:px-0 m-5 ">
+    <div className="md:my-5">
+      <div className="title text-center mb-14 lg:px-20 m-5 ">
            <span className="text-[#0062f5] text-sm font-bold">PROMOTIONS</span>
                 <h1 className="text-[#212121] font-bold text-[32px] lg:px-0 px-5 leading-[35px] lg:mt-0 mt-5">
                       Our Promotions Events</h1>
 
-        <div className="banner grid grid-cols-12 gap-2 lg:px-20 py-10 mb-20">
+        <div className="banner grid grid-cols-12 gap-4 lg:px-10 py-10 mb-20">
           <div className="lg:col-span-6 md:col-span-12 col-span-12">
             <div className=" ">
               <div className="banner-left-1  bg-[#d6d6d8]  text-[#212121] flex items-center
@@ -26,35 +26,37 @@ const Products = () => {
             <div className="banner-left-2  bg-[#212121] mt-2 text-white pt-12 pb-8 px-8 lg:w-[40vw] w-[90vw]">
              <h3 className="font-[700] text-4xl mb-4 text-white ">GET 30% Off</h3>
               <p className="font-[400] text-sm mb-1">USE PROMO CODE</p>
-              <Button className='text-[17px] font-[700] bg-[#474747] text-white mt-1 rounded-md py-2 lg:px-9 px-10'>
+              <Button className='text-[17px] font-[700] bg-[#474747] text-white mt-1 rounded-md py-2 lg:px-9 px-5'>
                 DINEWEEKENDSALE</Button>
             </div>
           </div>
-          <div className="lg:col-span-6 md:col-span-5 col-span-12 flex-col lg:flex-row ">
-            <div className="banner-right  md:flex items-center gap-4 mx-2 flex-row lg:px-0 lg:h-full">
-              <div className="banner-right-1 bg-[#efe1c7] h-full flex flex-col justify-between w-full ">
-                <div className=" details box-border font[400] text-[15px] leading-[24px] lg:px-10 px-5  lg:w-[20vw] md:w-60 ">
-                  <p className=" px-0 text-2xl lg:mt-5 mt-5">Flex Sweatshirt</p>
-                  <div className="price">
-                    <span className="relative">$100.00 </span>
-                    <span className="font-[600] text-[18px] ml-[10px] leading-[23px]">$75.00</span></div>
-                  <Image src="/event2.jpg" alt=" " height={218} width={222} className="lg:w-[100%] lg:h-[50vh] h-90vh  object-contain lg:mt-0 mt-5 "></Image></div>
+          <div className=" flex-1 lg:flex grid  justify-between items-center gap-2 lg:ml-3">
+              <div className="banner-right-1 bg-[#efe1c7] flex flex-col justify-between items-center h-full">
+                <div className="details w-[100%] ml-2 pt-4 text-xl leading-[24px]">
+                  <h1>Flex Sweatshirt</h1>
+                  <span>$100.00</span>
+                  <span className="font-bold ml-2">$75.00</span>
+                  <div className="img w-[280px] h-[340px] mt-6">
+                    <Image src="/event2.jpg" height={100} width={266} alt=""></Image>
+                  </div>
+                </div>
               </div>
-              <div className="banner-right-2 bg-[#d7d7d9] h-full flex flex-col justify-between lg:mt-0 mt-5">
-                <div className=" details box-border font[400] text-[15px]  lg:px-10 px-5 lg:w-[20vw] md:w-60 ">
-                  <p className=" px-0 text-2xl mt-5">Flex Push Button Boomber</p>
-                  <div className="price">
-                    <span className="relative ">$225.00 </span>
-                    <span className="font-[600] text-[18px] ml-[10px] leading-[23px]">$190.00</span></div>
-                  <Image src="/event3.jpg" alt=" " height={218} width={222} className="lg:w-[100%] lg:h[90vh] h-90vh mt-2 object-contain"></Image></div>
+              <div className="banner-right-2 bg-[#d7d7d9] flex flex-col justify-between items-center h-full">
+              <div className="w-[100%] ml-2 mt-4 text-xl leading-[24px]">
+              <h1>Flex Push Button Bomber</h1>
+                  <span>$225.00</span>
+                  <span className="font-bold ml-2">$190.00</span>
+                  <div className="img w-[280px] h-[346px]  lg:mt-5 mt-0">
+                    <Image src="/event3.jpg" height={100} width={266} alt=""></Image>
+               </div>
               </div>
-
+             </div>
             </div>
           </div>
         </div>
-      </div></div>
-
-
+      </div>
+        
+     
   )
 }
 export default Products;

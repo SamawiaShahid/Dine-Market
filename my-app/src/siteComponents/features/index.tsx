@@ -4,58 +4,56 @@ import Link from "next/link";
 
 const Features =()=>{
     return(
-        <div className=" ">
-            <div className="title flex justify-end bg-[linear-gradient(180deg,#fff 50%,#fbfcff 0)] mt-10 ">
-                <h1 className="font-[700] lg:leading-[55px] leading-[40px] text-[#212121] lg:w-[45%]  lg:text-6xl text-4xl lg:px-0 px-6">Unique and Authentic Vintage Designer Jewellery</h1>
+        <div className='mt-14 flex-grow py-4 md:mt-[88px] md:py-8 lg:mt-[110px]'>
+        <div className='mx-auto flex max-w-[1560px] flex-col space-y-24 px-5 sm:px-10 md:px-16 lg:px-20'>
+             <div className="flex w-full flex-col items-center justify-center pt-6">
+                <div className="z-10 flex w-full flex-row">
+                   <div className="hidden basis-7/12 xl:block"></div>
+                   <div className="basis-full px-5 text-5xl font-bold leading-[55px] tracking-wide md:px-16 xl:basis-5/12 xl:px-0">Unique and Authentic Vintage Designer Jewellery</div>
                 </div>
-                <div className="lg:grid grid-cols-8 gap-5">
-                <div className="lg:col-span-12 relative md:col-span-12 col-span-12">
-                    <div className="font-bold text-[#212121] text-6xl lg:text-8xl absolute opacity-[.07] z-[2] px-10 py-20 leading-[90px]">Different from others</div>
-                    <div className="grid grid-cols-12 ">
-                 
-                            <div className="lg:col-span-6 col-span-12 ">
-                                <div className="grid  grid-cols-12 col-span-12 lg:flex px-5 lg:gap-24 gap-0  py-10">
-                                    <div className="mb-4  lg:col-span-12 col-span-6    ">
-                                        <h3 className='text-[#212121] text-lg font-bold'>Using Good Quality Materials</h3>
-                                        <p className='text-[#212121] font-[300] text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                    </div>
-                                    <div className="mb-4 lg:col-span-12 col-span-6 ">
-                                        <h3 className='text-[#212121] text-lg font-bold'>100% Handmade Products</h3>
-                                        <p className='text-[#212121] font-[300] text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        </p>
-                                    </div></div>
-                                    <div className="grid  grid-cols-12 col-span-12 lg:flex px-5 lg:gap-24 gap-0 ">
-                                    <div className="mb-4 lg:col-span-12 col-span-6 ">
-                                        <h3 className='text-[#212121] text-lg font-bold'>100% Handmade Products</h3>
-                                        <p className='text-[#212121] font-[300] text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        </p>
-                                    </div>
-                                    <div className="mb-4 lg:col-span-12 col-span-6">
-                                        <h3 className='text-[#212121] text-lg font-bold'>100% Handmade Products</h3>
-                                        <p className='text-[#212121] font-[300] text-base c'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                       
-                    </div>
+               <div className="z-0 -mt-[104px] flex w-full flex-col space-x-0 space-y-10 px-10 pb-10 pt-32 md:-mt-[56px] md:pt-24 xl:flex-row xl:space-x-10 xl:space-y-0">
+                  <div className="relative flex basis-1/2 flex-col items-center justify-center space-y-8 text-[#212121]">
+                    <div className="flex  basis-1/2 flex-col justify-between space-y-8 sm:flex-row sm:space-x-14 sm:space-y-0">
+                <div className="flex basis-1/2 flex-col items-start justify-center">
+                    <p className="text-lg font-semibold leading-6">Using Good Quality Materials</p>
+                    <p className="mt-3 text-base font-light">Lorem ipsum dolor sit amt, consectetur adipiscing elit.</p>
                 </div>
-             
-                <div className="lg:col-span-3 md:col-span-6 col-span-12 py-10  lg:px-10 px-3">
-                    <Image src="/feature.jpg" width={300} height={350} alt='feature' />
+                <div className="flex basis-1/2 flex-col items-start justify-center">
+                    <p className="text-lg font-semibold leading-6">100% Handmade Products</p>
+                    <p className="mt-3 text-base font-light">Lorem ipsum dolor sit amt, consectetur adipiscing elit.</p>
                 </div>
-                <div className="lg:col-span-4 md:col-span- col-span-12 lg:px-0  px-10 lg:tracking-tight   lg:py-28 py-0 lg:-ml-7 ml-0 " >
-                    <p className='text-justify text-base text-[#212121]'>This piece is ethically crafted in our small family-owned workshop in Peru with unmatched
-                        attention to detail and care. The Natural color is the actual natural color of the fiber,
-                        undyed and 100% traceable.</p>
-                    <Link href='/Allproducts' >
-                        <button className="bg-[#212121] mt-8 font-[600] transition all
+            </div>
+            <div className="flex basis-1/2 flex-col justify-between space-y-8 sm:flex-row sm:space-x-14 sm:space-y-0">
+                <div className="flex basis-1/2 flex-col items-start justify-center">
+                    <p className="text-lg font-semibold leading-6">Modern Fashion Design</p>
+                    <p className="mt-3 text-base font-light">Lorem ipsum dolor sit amt, consectetur adipiscing elit.</p>
+                </div>
+                <div className="flex basis-1/2 flex-col items-start justify-center">
+                    <p className="text-lg font-semibold leading-6">Discount for Bulk Orders</p>
+                    <p className="mt-3 text-base font-light">Lorem ipsum dolor sit amt, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div className="absolute inset-0 -z-40 flex items-center justify-center">
+                <div className="text-[60px] font-bold text-gray-200 sm:text-[75px] sm:font-bold md:text-8xl md:font-extrabold">Different from others</div>
+            </div>
+          </div>
+          <div className="flex basis-full flex-col items-center space-x-3 space-y-10 sm:flex-row sm:space-y-0 xl:basis-1/2 xl:items-stretch xl:space-x-8">
+            <div className="flex basis-2/5 xl:basis-3/5">
+            <Image src="/feature.jpg" width={300} height={350} alt='feature' />
+            </div>
+            <div className="flex basis-3/5 flex-col justify-between space-y-10 xl:basis-2/5">
+                <p className="text-justify text-base font-light text-[#212121]">This piece is ethically crafted in our small family-owned workshop in Peru with unmatched attention to detail and care.
+                 The Natural color is the actual natural color of the fiber, undyed and 100% traceable.</p>
+                 <Link href='/Allproducts' >
+                         <button className="bg-[#212121] mt-8 font-[600] transition all
                          hover:bg-white hover:text-black hover:border hover:border-black w-[150px] h-[42px] hover:border-solid px-2 py-1 rounded-md text-white">See All products</button>
                     </Link>
-                </div>
-            </div></div>
-
-
+            </div>
+          </div>
+       </div>    
+    </div>
+  </div>
+</div>
 
     )
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Male =()=>{
     return(
-        <div className="lg:px-28 px-8 grid lg:grid-cols-2 sm:grid-cols-1 py-10 gap-20">
+        <div className="lg:px-40 px-8 grid lg:grid-cols-2 sm:grid-cols-1 py-10 gap-2">
               <div className="Product4 font-[600] text-[#212121]    ">
                     <a href="/">
                         <Image src="/male.jpg" alt=" " height={100} width={250} className="color-[rgb(215 215 217 ]" ></Image>

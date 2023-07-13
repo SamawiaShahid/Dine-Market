@@ -11,25 +11,25 @@ const Products =() =>{
                 <h1 className="text-[#212121] font-bold text-[32px]">Check What we Have </h1>
             </div>
         <div className="   grid lg:space-x-12 xl:grid-cols-3  lg:grid-cols-3 sm:grid-cols-1 ">
-            <div className="Product1 font-[600] text-[#212121]  xl:text-2xl lg:text-xl sm:text-xl translate-x-5 transition ease-in-out delay-200 
+            <div className="Product1 font-[600] text-[#212121] lg:text-xl sm:text-xl translate-x-5 transition ease-in-out delay-200 
              hover:translate-y-1  hover:scale-110 sm:w-[100%] w-[100%] lg:-ml-0 -ml-2 object-cover ">
                 <a href="/">
-            <Image src="/product1.jpg" alt=" " height={100} width={450} className="h-[81vh] w-[100%] lg:ml-2" ></Image>
+            <Image src="/product1.jpg" alt=" " height={100} width={350} className="w-[100%] lg:ml-2" ></Image>
             </a>
             <p className="lg:mt-5 mt-0">Brushed Raglan Sweatshirt</p>
             <p >$195</p>
             </div>
-           <div className="Product2    font-[600] text-[#212121]  xl:text-2xl lg:text-xl -translate-x-5
-            transition ease-in-out delay-200 hover:translate-y-1 hover:scale-110 w-[100%] sm:w-[100%] ml-8 lg:mt-0 mt-5 object-cover">
+           <div className="Product2    font-[600] text-[#212121] lg:text-xl -translate-x-5
+            transition ease-in-out delay-200 hover:translate-y-1 hover:scale-110 w-[100%] sm:w-[100%] ml-8 lg:mt-0 mt-5 object-cover self-center">
             <a href="/">
-            <Image src="/ladyyyy.jpg"  alt=" " height={100} width={450} className="h-[81vh] w-[100%]"></Image></a>
+            <Image src="/ladyyyy.jpg"  alt=" " height={100} width={350} className="w-[100%] "></Image></a>
             <p className="mt-5">Cameryn Sash Tie Dress</p>
             <p>$545</p>
             </div> 
-         <div className="Product3 font-[600] text-[#212121] xl:text-2xl lg:text-xl
-          -translate-x-10 transition ease-in-out delay-200 hover:translate-y-1 hover:scale-110 sm:w-[100%] w-[100%] ml-14 lg:mt-0 mt-5">
+         <div className="Product3 font-[600] text-[#212121] lg:text-xl
+          -translate-x-10 transition ease-in-out delay-200 hover:translate-y-1 hover:scale-110 sm:w-[100%] w-[100%] ml-14 lg:mt-0 mt-5 object-cover ">
             <a href="/">
-          <Image src="/product2.jpg" alt=" " height={100} width={450} className=" h-[81vh] w-[100%]"></Image>
+          <Image src="/product2.jpg" alt=" " height={100} width={350} className="w-[100%]"></Image>
           </a>
           <p className="mt-5">Flex Sweatshirt</p>
             <p>$175 </p></div> 
