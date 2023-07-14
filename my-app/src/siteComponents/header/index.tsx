@@ -4,10 +4,8 @@ import { CiSearch } from 'react-icons/ci'
 import { CgShoppingCart } from 'react-icons/cg'
 import Image from "next/image"
 import Link from "next/link"
-import { MdProductionQuantityLimits } from "react-icons/md"
-import { FaChild } from "react-icons/fa"
-import { FaMale } from "react-icons/fa"
-import { FaFemale } from "react-icons/fa"
+
+
 import { useState } from "react"
 
 
@@ -15,14 +13,6 @@ import { useState } from "react"
 const Headers = () => {
 
   const [isHeader, setIsHeader] = useState<boolean>(false);
-
-  const iconComponents: { [key: string]: React.ComponentType } = {
-    FaFemale: FaFemale,
-    FaMale: FaMale,
-    FaChild: FaChild,
-    MdProductionQuantityLimits: MdProductionQuantityLimits,
-  };
-  
   return (
     <nav className='shadow-md sticky top-0 bg-white w-full z-[999] h-[60px]'>
 
@@ -67,34 +57,25 @@ const Headers = () => {
                       <Image src="/Logo.jpg" height={35} width={150} alt='logo' />
                     </Link>
                   </li>
-                  <li className=' font-[500]'><button className='relative mt-5 mr-3 bg-[#f1f1f1] lg:flex rounded-full p-[12px] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110'>
+                  <li className=' font-[500]'><button className='relative ml-20 mt-10 mr-3 bg-[#f1f1f1] lg:flex rounded-full p-[12px] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110'>
                     <CgShoppingCart className='text-[18px] ' />
                     <span className='absolute top-[-4px] right-0 bg-[#f02d34] rounded-full text-[13px] h-[18px] w-[18px] text-white'>0</span>
-                  </button><Link href="#" className='text-[20px]'>Cart</Link></li>
+                  </button><Link href="#"></Link></li>
                 
-                      <li className='font-[500]'></li>
-                        <button className='relative mt-2 mr-3 bg-[#f1f1f1] lg:flex rounded-full p-[12px] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110'>
-                        {/* <IconComponent /> */}
-                        </button>
-                        <Link href="/" className='text-[20px]'></Link>
-                        <li className='font-[500]'>
-                       <button className='relative mt-2 mr-3 bg-[#f1f1f1] lg:flex rounded-full p-[12px] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110'>
-                         <div className='text-[18px] ' >   <MdProductionQuantityLimits /></div> </button>
-                       <Link href="/Allproducts" className='text-[20px]'>All Products</Link></li>
-                     <li className=' font-[500]'>
-                       <button className='relative mt-2 mr-3 bg-[#f1f1f1] lg:flex rounded-full p-[12px] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110'>
-                         <div className="text-[18px] "> <FaChild /></div></button>
-                      <Link href="/Kids" className='text-[20px]'>Kids</Link></li>
-                     <li className=' font-[500]'>
-                      <button className='relative mt-2 mr-3 bg-[#f1f1f1] lg:flex rounded-full p-[12px] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110'>
-                         <div className='text-[18px] '>  <FaMale /> </div></button>
-                       <Link href="/Male" className='text-[20px]'>Male</Link></li>
-                                           <li className=' font-[500]'>
-                       <button className='relative mt-2 mr-3 bg-[#f1f1f1] lg:flex rounded-full p-[12px] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110'>
-                         <div className='text-[18px] '>
-                           <FaFemale /></div></button>
-                       <Link href="/Female" className='text-[20px]'>Female</Link></li>
-                 
+                  {/* Icon components */}
+                        <div className=" ml-20 text-base space-y-3 font-bold">
+                        <Link href="/Female">Female</Link>
+                        <li className=''>
+
+                          <Link href="/Male">Male</Link></li>
+                          <li className=''>
+
+                          <Link href="/Kids">Kids</Link></li>
+                          <li className=''>
+
+                          <Link href="/Allproducts">All Products</Link></li>
+                       
+                       </div>
                  
                 </ul>
               </div>
