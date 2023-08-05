@@ -1,0 +1,93 @@
+
+export const allProducts = [
+    {
+        id: 1,
+        title: "Brushed Raglan Sweatshirt",
+        price: "$195",
+        image: `/product1.jpg`,
+        productcategory: "Sweater",
+        category:"Female"
+    },
+    {
+        id: 2,
+        title: "Cameryn Sash Tie Dress",
+        price: "$545",
+        image: `/ladyyyy.jpg`,
+        productcategory: "Dress",
+        category:"Female",
+    }, 
+    {
+        id: 4,
+        title: "Flex Sweatpants",
+        price: "$175",
+        image: `/product2.jpg`,
+        productcategory: "Sweater",
+        category:"Female",
+    },
+    {
+        id: 5,
+        title: "Pink Fleece Sweatpants",
+        price: "$195",
+        image: `/product4.jpg`,
+        productcategory: "Pants",
+        category:"Female",
+    },
+    {
+        id: 6,
+        title: "Lite Sweatpants",
+        price: "$150",
+        image: `/product5.jpg`,
+        productcategory: "Pants",
+        category:"Female",
+    },
+    {
+        id: 7,
+        title: "Imperial Alpaca Hoodie",
+        price: "$525",
+        image: `/product6.jpg`,
+        productcategory: "Pants",
+        category:"Female",
+    },
+    {
+        id: 8,
+        title: "Flex Push Button Bomber",
+        price: "$225",
+        image: `/product7.jpg`,
+        productcategory: "Sweater",
+        category:"Female",
+    },
+    {
+        id: 9,
+        title: "Muscle Tank",
+        price: "$75",
+        image: `/feature.jpg`,
+        productcategory: "Jackets",
+        category:"Female",
+    },
+    {
+        id: 10,
+        title: "Brushed Bomber",
+        price: "$225",
+        image: `/product8.jpg`,
+        productcategory: "Jackets",
+        category:"Female",
+    },
+    {
+        id: 11,
+        title: "Brushed Bomber",
+        price: "$225",
+        image: `/male.jpg`,
+        productcategory: "T-Shirts",
+        category:"Male",
+    },
+    {
+        id: 12,
+        title: "Raglan Sweatshirt",
+        price: "$195",
+        image: `/event4.jpg`,
+        productcategory: "Sweater",
+        category:"Male",
+    },
+    
+
+]

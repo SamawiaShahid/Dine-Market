@@ -22,14 +22,14 @@ const Headers = () => {
             <Image src="/Logo.jpg" height={35} width={150} alt='logo' />
           </Link>
           <div className="list xl:gap-12 lg:gap-5 lg:flex hidden font-semibold">
-             <Link href="/Female"  >Female</Link>
-             <Link href="/Male" >Male</Link>
-             <Link href="/Kids" >Kids</Link>
-             <Link href="/Allproducts" >All Products</Link>
-           </div>
+            <Link href="/Female"  >Female</Link>
+            <Link href="/Male" >Male</Link>
+            <Link href="/Kids" >Kids</Link>
+            <Link href="/Allproducts" >All Products</Link>
+          </div>
 
           <div className="hidden gap-12 lg:flex">
-            
+
           </div>
           <div className="relative hidden lg:flex">
             <Input placeholder='what you looking for' className='relative h-[30px] pl-[30px] text-xs' />
@@ -61,22 +61,22 @@ const Headers = () => {
                     <CgShoppingCart className='text-[18px] ' />
                     <span className='absolute top-[-4px] right-0 bg-[#f02d34] rounded-full text-[13px] h-[18px] w-[18px] text-white'>0</span>
                   </button><Link href="#"></Link></li>
-                
+
                   {/* Icon components */}
-                        <div className=" ml-20 text-base space-y-3 font-bold">
-                        <Link href="/Female">Female</Link>
-                        <li className=''>
+                  <div className=" ml-20 text-base space-y-3 font-bold">
+                    <Link href="/Female">Female</Link>
+                    <li className=''>
 
-                          <Link href="/Male">Male</Link></li>
-                          <li className=''>
+                      <Link href="/Male">Male</Link></li>
+                    <li className=''>
 
-                          <Link href="/Kids">Kids</Link></li>
-                          <li className=''>
+                      <Link href="/Kids">Kids</Link></li>
+                    <li className=''>
 
-                          <Link href="/Allproducts">All Products</Link></li>
-                       
-                       </div>
-                 
+                      <Link href="/Allproducts">All Products</Link></li>
+
+                  </div>
+
                 </ul>
               </div>
             </aside>
